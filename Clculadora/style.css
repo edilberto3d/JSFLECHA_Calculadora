@@ -1,0 +1,126 @@
+body{
+ padding: 10px 20px;
+ margin:20px 40px;
+}
+
+.padre{
+ border:1px solid;
+ opacity: .9;
+ width: 400px;
+ height: 570px;
+ background: rgb(32, 65, 82);
+ box-shadow: 0 0 5px rgb(160, 50, 50);
+ position: relative;
+
+}
+
+.encabezado{
+ background: rgba(1, 113, 133, 0.629);
+ height: 25px;
+ display: flex;
+ box-sizing: border-box;
+ flex-direction: row;/*<- eje principal*/
+ justify-content:right;
+
+ 
+}
+ 
+
+
+.logo{
+ width: 30px;
+ height: 20px;
+position: relative;
+right:408px;
+}
+[src]{
+ height: 20px;
+}
+.pantalla{
+ background: rgb(227, 221, 221);
+ width: auto;
+ height: 100px;
+ padding: 50px 20px 50px 20px;
+font-size: 40px;
+ box-sizing: border-box;
+ overflow: auto;
+
+}
+
+.cuerpo{
+ background: gray;
+ 
+ height: 390px;
+ padding: 10px 10px 10px;
+ margin: 20px 5px 20px 5px;
+ gap:12px;
+ /* margin-left: auto;
+ margin-right: auto; */
+ border-radius: 10%;
+
+
+
+}
+.f1{
+ display: flex;
+ box-sizing: border-box;
+ flex-direction:row;/*<- eje principal*/
+ justify-content: space-evenly
+}
+
+.a1{
+ width: 80px;
+ height: 50px;
+ margin: 1px 4px 10px 5px;
+ background: wheat;
+ border-radius: 20%;
+ align-content: center;
+ text-align: center;
+ padding: 1px 2px 20px 1px ;
+
+}
+
+.f2{
+ display: flex;
+ box-sizing: border-box;
+ flex-direction:row;/*<- eje principal*/
+ justify-content: space-evenly;
+
+}
+
+
+.f3{
+ display: flex;
+ box-sizing: border-box;
+ flex-direction:row;/*<- eje principal*/
+ justify-content: space-evenly
+}
+
+
+
+
+.f4{
+ display: flex;
+ box-sizing: border-box;
+ flex-direction:row;/*<- eje principal*/
+ justify-content: space-evenly
+}
+
+
+
+
+.f5{
+ display: flex;
+ box-sizing: border-box;
+ flex-direction:row;/*<- eje principal*/
+ justify-content: space-evenly
+}
+
+
+
+.f6{
+ display: flex;
+ box-sizing: border-box;
+ flex-direction:row;/*<- eje principal*/
+ justify-content: space-evenly
+}
